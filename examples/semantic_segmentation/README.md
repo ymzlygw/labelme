@@ -1,6 +1,6 @@
 # Semantic Segmentation Example
 
-## Annotation
+## Annotation 标注的时候注意覆盖顺序，先标底层，再标表面
 
 ```bash
 labelme data_annotated --labels labels.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}'
